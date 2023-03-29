@@ -927,7 +927,7 @@ body {
 .form-checkbox-input:checked+.modal-checkbox-icon-wrapper {
     opacity: 1;
     fill: var(--color-cloud);
-    background-image: url(/images/modal-form/modal-checkbox.svg);
+    background-image: url(./images/modal-form/modal-checkbox.svg);
     background-color: var(--color-ocean);
     background-repeat: no-repeat;
     background-position: 50% 50%;
