@@ -276,52 +276,52 @@
         </section>
         <section class="customers-container">
             <div class="container cutomers-container">
-               <h3 class="customers-title">Customers</h3>
+                <h3 class="customers-title">Customers</h3>
 
-               <ul class="customers-list list">
-                <li>
-                    <a href="" class="customers-link">
-                        <svg class="customers-logo">
-                            <use href="./images/sprite.svg#icon-customers-1"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li>
-                    <a href="" class="customers-link">
-                        <svg class="customers-logo">
-                            <use href="./images/sprite.svg#icon-customers-2"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li>
-                    <a href="" class="customers-link">
-                        <svg class="customers-logo">
-                            <use href="./images/sprite.svg#icon-customers-3"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li>
-                    <a href="" class="customers-link">
-                        <svg class="customers-logo">
-                            <use href="./images/sprite.svg#icon-customers-4"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li>
-                    <a href="" class="customers-link">
-                        <svg class="customers-logo">
-                            <use href="./images/sprite.svg#icon-customers-5"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li>
-                    <a href="" class="customers-link">
-                        <svg class="customers-logo">
-                            <use href="./images/sprite.svg#icon-customers-6"></use>
-                        </svg>
-                    </a>
-                </li>
-               </ul>
+                <ul class="customers-list list">
+                    <li>
+                        <a href="" class="customers-link">
+                            <svg class="customers-logo">
+                                <use href="./images/sprite.svg#icon-customers-1"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="customers-link">
+                            <svg class="customers-logo">
+                                <use href="./images/sprite.svg#icon-customers-2"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="customers-link">
+                            <svg class="customers-logo">
+                                <use href="./images/sprite.svg#icon-customers-3"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="customers-link">
+                            <svg class="customers-logo">
+                                <use href="./images/sprite.svg#icon-customers-4"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="customers-link">
+                            <svg class="customers-logo">
+                                <use href="./images/sprite.svg#icon-customers-5"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="customers-link">
+                            <svg class="customers-logo">
+                                <use href="./images/sprite.svg#icon-customers-6"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </section>
     </main>
@@ -337,7 +337,7 @@
                     & growth solutions.</p>
             </div>
             <div class="footer-social-media">
-                <h3 class="footer-media-title">Social media</h3>
+                <h3 class="footer-h3-title">Social media</h3>
                 <ul class="footer-media-list list">
                     <li class="social-list-item">
                         <a href="" class="footer-social-list-link">
@@ -369,19 +369,78 @@
                     </li>
                 </ul>
             </div>
+            <div class="subscribe-section">
+                <h3 class="footer-h3-title">Subscribe</h3>
+                <form class="subscribe-form">
+                    <input type="email" class="footer-subscribe-input" name="subscribe_user_emeail" placeholder="E-mail">
+                    <button class="subscribe-btn" type="submit">Subscribe<svg class="subscribe-btn-icon">
+                            <use href="/images/sprite.svg#icon-send"></use>
+                        </svg>
+                    </button>
+                </form>
+            </div>
         </div>
     </footer>
 
-<div data-modal class="backdrop is-hidden">
-    <div class="modal">
-        <button data-modal-close class="modal-close-btn" type="button">
-            <svg class="modal-close">
-                <use href="./images/sprite.svg#modal-close"></use>
-            </svg>
-        </button>
+    <div data-modal class="backdrop is-hidden">
+        <div class="modal">
+            <button data-modal-close class="modal-close-btn" type="button">
+                <svg class="modal-close">
+                    <use href="./images/sprite.svg#modal-close"></use>
+                </svg>
+            </button>
+            <form class="modal-form">
+                <p class="form-top-text">Leave your contacts and we will call you back</p>
+                <label class="form-input-lable">
+                    <span class="form-input-name">Name</span>
+                    <span class="modal-form-input-wrapper">
+                        <input class="form-user-information-input" type="text" name="user_name" minlength="2"
+                            pattern="[A-Za-z]+" required>
+                        <svg class="modal-form-icon">
+                            <use href="./images/sprite.svg#icon-modal-form-name"></use>
+                        </svg>
+                    </span>
+                </label>
+                <label class="form-input-lable">
+                    <span class="form-input-name">Phone</span>
+                    <span class="modal-form-input-wrapper">
+                        <input class="form-user-information-input" type="tel" name="user_phone"
+                            pattern="[0-9]{3} [0-9]{3} [0-9]{2} [0-9]{2}" required>
+                        <svg class="modal-form-icon">
+                            <use href="./images/sprite.svg#icon-modal-form-name"></use>
+                        </svg>
+                    </span>
+                </label>
+                <label class="form-input-lable">
+                    <span class="form-input-name">Email</span>
+                    <span class="modal-form-input-wrapper">
+                        <input class="form-user-information-input" type="email" name="user_email">
+                        <svg class="modal-form-icon">
+                            <use href="./images/sprite.svg#icon-modal-form-name"></use>
+                        </svg>
+                    </span>
+                </label>
+                <label class="form-input-lable">
+                    <span class="form-input-name">Comment</span>
+                    <textarea class="form-user-information-input form-text-area-label" name="user_desc"
+                        placeholder="Text input"></textarea>
+                </label>
+
+                <label for="form-checkbox" class="form-checkbox-text">
+                    <input class="form-checkbox-input is-hidden" id="form-checkbox" name="privacy_policy_input"
+                        type="checkbox">
+                    <span class="modal-checkbox-icon-wrapper">
+                        <svg class="modal-checkbox-icon">
+                            <use href="./images/sprite.svg#icon-modal-checkbox"></use>
+                        </svg></span>
+                    I accept the terms and conditions of the&nbsp;<a class="form-privacy-policy-link" href="">Privacy
+                        Policy</a>
+                </label>
+                <button class="form-submit-btn" type="submit">Send</button>
+            </form>
+        </div>
     </div>
-</div>
-<script src="./js/modal.js"></script>
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
