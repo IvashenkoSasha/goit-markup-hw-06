@@ -170,7 +170,7 @@ body {
     color: #404BBF;
 }
 
-.menu-link:is(:hover, :focus)::after {
+.menu-link-stud::after {
     margin-top: 20px;
     display: block;
     background: #404BBF;
@@ -181,16 +181,27 @@ body {
     position: absolute;
 }
 
-.menu-link-portf:is(:hover, :focus)::after {
+.menu-link-portf::after {
+    margin-top: 20px;
+    display: block;
+    background: #404BBF;
+    border-radius: 2px;
     width: 66px;
+    height: 4px;
+    content: "";
+    position: absolute;
 }
 
-.menu-link-contact:is(:hover, :focus)::after {
-    width: 67px;
+.menu-link-portf {
+    color: var(--color-ocean);
 }
 
 .menu-list-item {
     display: flex;
+}
+
+.menu-link-stud {
+    color: var(--color-ocean);
 }
 
 /* --------------Hero-------------- */
@@ -649,7 +660,7 @@ body {
 
 
 .subscribe-section {
-    margin-left: 80px;
+    margin-left: auto
 }
 
 .subscribe-form {
@@ -676,6 +687,8 @@ body {
     border-radius: 4px;
     border: none;
     transition: background-color var(--main-animation);
+    display: flex;
+    justify-content: center;
 
 }
 
