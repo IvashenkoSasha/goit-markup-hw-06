@@ -784,8 +784,10 @@ body {
 .form-input-lable {
     display: flex;
     flex-direction: column;
-
+    margin-bottom: 8px;
 }
+
+
 
 .form-top-text {
     font-weight: 500;
@@ -827,7 +829,7 @@ body {
 }
 
 .form-input-name {
-    margin-bottom: 8px;
+    
 }
 
 .modal-form-icon {
