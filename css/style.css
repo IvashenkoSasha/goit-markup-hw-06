@@ -829,7 +829,7 @@ body {
 }
 
 .form-input-name {
-    
+    margin-bottom: 4px;
 }
 
 .modal-form-icon {
@@ -847,7 +847,6 @@ body {
 .modal-form-input-wrapper {
     position: relative;
     display: inline-block;
-    margin-bottom: 8px;
 }
 
 .form-text-area-label {
